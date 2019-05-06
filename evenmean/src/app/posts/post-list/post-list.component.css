@@ -6,3 +6,10 @@
 .info-text {
   text-align: center;
 }
+
+mat-action-row p {
+  justify-self: flex-start;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1em;
+}
