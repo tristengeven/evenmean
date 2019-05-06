@@ -5,7 +5,7 @@
     </mat-expansion-panel-header>
     <p><i>{{ post.content }}</i></p>
     <mat-action-row>
-        <p><i>Posted on {{ post.timestamp }}</i> </p>
+        <p *ngIf="post.timestamp"><i>Posted on {{ post.timestamp }}</i> </p>
         <button mat-button color="primary">Edit</button>
         <button mat-button color="warn">Delete</button>
     </mat-action-row>
